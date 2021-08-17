@@ -1,8 +1,12 @@
 def main():
     #escribe tu código abajo de esta línea
-    a = int(input("Cual es el primer numero? "))
-    b = int(input("Cual es el segundo numero? "))
-    c= a + b
-    print (c)
+    a = float(input("Calificación de la materia: "))
+    b = float(input("Calificación de la materia: "))
+    c = float(input("Calificación de la materia: "))
+    d = float(input("Calificación de la materia: "))
+
+    f = (a + b + c + d)/4
+    print("El promedio es: " +str(f))
+    
 if __name__ == '__main__':
     main()
